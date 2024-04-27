@@ -1,7 +1,32 @@
+.s-1 {
+	background-image: url("https://cdn.mos.cms.futurecdn.net/MZPENoKz2jyhk4gv9dGhCm-1200-80.png");
+	background-repeat: no-repeat;
+	background-color: black;
+	background-size: cover;
+	height: 100vh;
+	overflow: hidden;
+
+}
+
+.s-1:hover h2 {
+	font-size: 50px;
+}
+
 .container {
 	width: 1165px;
 	margin: 0 auto;
 }
-h3 {
-	color: hotpink;
+
+.mybox {
+	margin-top: 100px;
+	width: 500px;
+	height: 500px;
+	background-color: hotpink;
+	transition: all 4s ease-in ;
+
+}
+
+.mybox:hover {
+  transform: matrix(1, -0.3, 0, 1, 0, 0);
+
 }
